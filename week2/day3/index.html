@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="app.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Form -->
+    <form
+      action=""
+      id="contact-form"
+      method="POST"
+      style="border: 1px solid red;"
+    >
+      <div>
+        <label>
+          Full Name: <input id="full-name" type="text" name="name" />
+        </label>
+      </div>
+      <div>
+        <label> Email: <input id="email" type="text" name="email" /> </label>
+      </div>
+      <input type="submit" />
+    </form>
+    <!-- Table -->
+    <table id="contact-table" style="border: 1px solid red;">
+      <thead>
+        <tr>
+          <th>Full Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Elena</td>
+          <td>e@cd.com</td>
+        </tr>
+        <!-- Append new rows here -->
+      </tbody>
+    </table>
+  </body>
+</html>
